@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "TravelConnect About",
-  description: "About page for TravelConnect showing name, class, and project details.",
+  title: "About",
+  description: "About page for showing name, class, and project details.",
 };
 
 export default function RootLayout({ children }) {
