@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js webpage starter
 
-## Getting Started
+A small Next.js App Router starter whose homepage says “New Webpage creation Via Github.” The package name is `thepoolapp`, but no pooling product, authentication, or backend API is implemented in this branch.
 
-First, run the development server:
+## Run
 
-```bash
+```sh
+npm ci
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit http://localhost:3000. Use a Node.js version compatible with the pinned Next.js version in `package.json`; the repository does not declare its own Node engine range.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Files and commands
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `app/page.js`: homepage content and links.
+- `app/layout.js`: root page layout and font configuration.
+- `app/page.module.css`: homepage styles.
+- `app/globals.css`: global styles.
+- `public/`: static image assets.
+- `next.config.mjs`: Next.js configuration.
 
-## Learn More
+`npm run lint` runs ESLint. `npm run build` creates the production build; `npm start` serves that build. No environment variables or application database are required by the current source, and no automated tests are tracked. Font fetching during a build may require network access.
 
-To learn more about Next.js, take a look at the following resources:
+Read `AGENTS.md` before changing Next.js code. After edits, run lint/build and check the homepage links and images. Deploy using the repository root on a host that supports this Next.js version.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## More documentation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Source, command, and configuration reference](docs/REFERENCE.md)
+- [Contributing](CONTRIBUTING.md)
