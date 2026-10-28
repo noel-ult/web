@@ -1,7 +1,6 @@
 # web source reference
 
-
-Source reviewed: [`12c13feafb71`](https://github.com/noel-ult/web/commit/12c13feafb715beaf458f4c08a0a6c0e8fde195a).
+Source reviewed: [`ecfbe3298985`](https://github.com/noel-ult/web/commit/ecfbe329898598cca969c30c774a300444d01064).
 
 This reference records the checked-in source, scripts, configuration names, and route declarations. It is a navigation aid; service availability and successful test execution require separate verification.
 
@@ -30,7 +29,9 @@ Historical plans/reports describe their own revision; use current source when th
 
 - [AGENTS.md](../AGENTS.md)
 - [CLAUDE.md](../CLAUDE.md)
+- [CONTRIBUTING.md](../CONTRIBUTING.md)
 - [README.md](../README.md)
+- [docs/REFERENCE.md](../docs/REFERENCE.md)
 
 ## Source and configuration map
 
